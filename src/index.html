@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'" />
+    <title>nird-electron-react-boiler</title>
+</head>
+
+<body>
+    <div id="root"></div>
+    <!-- below is a random included js library or script (this case jquery is imported remove if not needed) -->
+    <script src="../src/js/resources/library_framework/jquery.min.js"></script>
+    <!-- Below is very important as it connects your file to the dev build / production build by webpack -->
+    <!-- After dev build or production build /dist folder will be available which will have a main file name(minified) app.js -->
+    <script src="../dist/app.js"></script>
+</body>
+
+</html>
