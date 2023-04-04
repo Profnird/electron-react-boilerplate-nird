@@ -1,4 +1,5 @@
 # electron-react-boilerplate-nird
+I have added up my own to this boilerplate to make it ready for production
 Simple electron-react boilerplate with webpack &amp; babel. Production ready so no need to stress.
 ##  [credit to Jerga99]
 
